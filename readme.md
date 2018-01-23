@@ -1,6 +1,6 @@
 # Vanhack Accelerator Program
 
-This project be part of program for available my skills. It is a blog made in Laravel 5.4.
+This project be part of program to evaluate my skills. It is a blog made in Laravel 5.4.
 
 ## Requirements
 
