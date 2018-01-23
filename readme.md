@@ -1,6 +1,6 @@
 # Vanhack Accelerator Program
 
-This project be part of program to evaluate my skills. It is a blog made in Laravel 5.4.
+This project be part of program to evaluate my skills. It is a forum made in Laravel 5.4.
 
 ## Requirements
 
@@ -12,8 +12,8 @@ This project be part of program to evaluate my skills. It is a blog made in Lara
 ## Installation
 
 ```
-git clone https://github.com/lucascavalcante/vanhack-blog-test.git
-cd vanhack-blog-test
+git clone https://github.com/lucascavalcante/vanhack-forum.git
+cd vanhack-forum
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -36,11 +36,11 @@ php artisan db:seed
 ```
 After this, will generate a admin user with this credentials:
 ```
-Login: admin@vanhackblog.com
+Login: admin@vanhackforum.com
 Pass: 123456
 ```
 
-If you want test data, then run this command.
+If you want dummy data, then run this command.
 ```
 php artisan db:seed --class=DummyDataSeeder
 ```
