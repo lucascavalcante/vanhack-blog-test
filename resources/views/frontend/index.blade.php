@@ -29,7 +29,7 @@
                                 @endforelse
                             </p>
                             <p>
-                                <span class="btn btn-sm btn-success">{{ $post->category->name }}</span>
+                                <a href={{ url("/category/{$post->category->id}") }} class="btn btn-sm btn-success">{{ $post->category->name }}</a>
                                 <span class="btn btn-sm btn-info">Comments <span class="badge">{{ $post->comments_count }}</span></span>
 
                                 <a href="{{ url("/posts/{$post->id}") }}" class="btn btn-sm btn-primary">See more</a>

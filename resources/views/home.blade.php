@@ -24,6 +24,7 @@
                 </div>
             </div>
 
+            @if (Auth::user()->is_admin)
             <div class="col-md-3">
                 <div class="panel panel-default">
                     <div class="panel-heading">Tags</div>
@@ -43,6 +44,7 @@
                     </div>
                 </div>
             </div>
+            @endif
 
         </div>
     </div>

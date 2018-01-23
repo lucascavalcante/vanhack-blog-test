@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', 'BlogController@index');
-Route::get('/posts/{post}', 'BlogController@post');
-Route::post('/posts/{post}/comment', 'BlogController@comment')->middleware('auth');
+Route::get('/', 'ForumController@index');
+Route::get('/posts/{post}', 'ForumController@post');
+Route::post('/posts/{post}/comment', 'ForumController@comment')->middleware('auth');
+Route::get('/category/{category}', 'ForumController@postsByCategory');
 
 Auth::routes();
 
