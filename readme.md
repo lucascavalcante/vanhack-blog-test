@@ -13,7 +13,7 @@ This project be part of program for available my skills. It is a blog made in La
 
 ```
 git clone https://github.com/lucascavalcante/vanhack-blog-test.git
-cd vanhack-blog
+cd vanhack-blog-test
 composer install
 cp .env.example .env
 php artisan key:generate
