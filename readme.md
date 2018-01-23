@@ -12,7 +12,7 @@ This project be part of program for available my skills. It is a blog made in La
 ## Installation
 
 ```
-git clone https://github.com/lucascavalcante/vanhack-blog.git
+git clone https://github.com/lucascavalcante/vanhack-blog-test.git
 cd vanhack-blog
 composer install
 cp .env.example .env
